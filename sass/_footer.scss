@@ -1,0 +1,21 @@
+.footer {
+  height: 75px;
+  background-color: $thr-color;
+  width: 100%;
+  p {
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 28px;
+    padding-left: 63.85%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    p {
+      padding-left: 0;
+      text-align: center;
+    }
+  }
+}
